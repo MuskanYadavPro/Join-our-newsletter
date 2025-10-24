@@ -1,0 +1,128 @@
+/* --- General Page Styles --- */
+body {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  line-height: 1.6;
+  background-color: #f7f7f7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.logo {
+  display: block;
+  max-width: 100px;        /* controls logo size */
+  margin: 0 auto 30px;     /* center and space below */
+}
+
+h1 {
+  color: #333;
+  font-size: 40px;
+  text-align: center;
+   margin-bottom: 10px;
+}
+
+/* --- Paragraph Styling --- */
+p {
+  color: #6b7280;             /* soft gray */
+  max-width: 480px;           /* readable line length */
+  line-height: 1.6;
+  font-weight: 300;           /* light but readable */
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 0.02em;     /* subtle letter spacing for polish */
+  
+}
+
+p.tight {
+  max-width: 550px;
+  line-height: 1.6;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  margin-left: 15px;
+}
+
+/* --- Newsletter Container --- */
+.newsletter-container {
+  width: 100%;
+  max-width: 550px;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 30px 25px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+/* --- Form Elements --- */
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+  font-size: 16px;
+}
+
+input[type="email"] {
+  width: 100%;
+  height: 50px;
+  color: #333;
+ 
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #fafafa;
+  font-size: 16px;
+  box-sizing: border-box;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input[type="email"]:focus {
+  border-color: #284BCE;
+  outline: none;
+}
+
+button {
+  background-color: #284BCE;
+  color: white;
+  padding: 12px 0;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  height: 50px;
+  font-size: 15px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+button:hover,
+button:focus {
+  background-color: #0056b3;
+  outline: none;
+}
+
+/* --- Disclaimer Text --- */
+.disclaimer {
+  font-size: 0.9em;
+  color: #666;
+  text-align: center;
+  margin: 20px 30px 0 30px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.author-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 18%;
+}
