@@ -14,7 +14,7 @@
       Solution
     </a>
     <span> | </span>
-    <a href="https://join-our-newsletter-pied.vercel.app/">
+    <a href="https://devchallenges.io/challenge/join-our-newsletter">
       Challenge
     </a>
   </h3>
@@ -38,38 +38,24 @@
 
 ![screenshot]()
 
-Welcome to my minimal blog card project!
-
-🧠 What I learned:
-- How to structure semantic HTML for readability and accessibility.
-- Styling clean layouts using CSS variables and box shadows.
-- Responsive design principles using flexbox.
-
-💡 Wisdom:
-Sometimes, less is more. A well-crafted simple card can say more than a complex UI when it’s designed with intention and clarity.
-
-Hope you enjoy it!
+📬 A clean and responsive Newsletter Signup Page built using HTML5 and CSS3.
+⚡ Focused on performance optimization — includes asynchronous CSS loading and image preloading.
+💡 Accessible and SEO-friendly with semantic HTML structure and proper meta tags.
+📱 Fully responsive layout that adapts to all screen sizes.
+🎨 Minimal and modern UI design with soft shadows and clear typography.
+🔒 Includes a privacy disclaimer to build user trust.
+🧩 Ideal for integration into landing pages, product sites, or email campaigns.
 
 ### What I learned
 
 This project helped me understand and practice several key front-end development concepts:
 
-1. 📐 **CSS Layout & Design**:
-   - Learned how to build clean, minimal layouts using **Flexbox**.
-   - Practiced using **CSS variables** (`:root`) for consistent color theming.
-   - Designed a responsive card component with **box shadows**, **border radius**, and **padding** to create a modern UI look.
-
-   Example:
-   ```css
-   :root {
-     --purple-light: #f3e8ff;
-     --purple: #6a0dad;
-   }
-
-   .box {
-     box-shadow: 8px 8px 20px 0 rgba(85, 85, 85, 0.08);
-     border-radius: 16px;
-   }
+🧱 Building a semantic and accessible HTML structure for better readability and SEO.
+🎨 Designing a responsive layout using pure CSS and Flexbox.
+⚡ Implementing performance optimizations such as preloading images and asynchronously loading CSS.
+💡 Writing clean, maintainable CSS with consistent spacing, typography, and colors.
+🧩 Enhancing user experience (UX) through clear form design, visual hierarchy, and privacy reassurance.
+🔍 Understanding the impact of Core Web Vitals and how to reduce layout shifts (CLS).
 
 ### Useful resources
 
@@ -84,44 +70,33 @@ This project helped me understand and practice several key front-end development
 - [Google Fonts](https://fonts.google.com/)  
   I used this to explore clean, readable font options like *Inter* and *Roboto*. It makes a big difference in the overall look of the card.
 
+-[Google Developers](https://web.dev/)
+  Excellent for learning about performance optimization and Core Web Vitals.
+
 - [devChallenges.io](https://www.devchallenges.io/)  
   The challenge itself gave me a focused task with real-world relevance, which helped me improve both my design thinking and coding skills.
-
 
 ### Built with
 
 This project was created using the following technologies and tools:
 
-- **HTML5** – For building the semantic structure of the blog card.
-- **CSS3** – For styling, layout, and responsive design using Flexbox, custom properties (variables), and box shadows.
-- **Vanilla JavaScript** – *(Not used in this project, but could be added for interactivity in the future)*.
-- **VS Code** – My code editor of choice, with helpful extensions like Live Server and Prettier.
-- **devChallenges.io** – For the challenge prompt and design inspiration.
+🧱 HTML5 – For semantic structure and accessible markup.
+🎨 CSS3 – For styling, layout, and responsive design.
+⚡ Preload & Async Techniques – To improve performance and reduce render-blocking.
+🖼️ WebP Images – For optimized, fast-loading visuals.
+🧠 Best Practices in UX/UI Design – Focused on clarity, readability, and user trust.
 
 ## Features
 
-Here are the key features of my Minimal Blog Card project:
+Here are the key features of this project:
 
-- ✅ **Clean and Minimal Design**  
-  Simple layout with balanced whitespace and modern styling that emphasizes readability.
-
-- 🖼️ **Responsive Blog Image**  
-  Displays a featured image with proper scaling and rounded corners for aesthetic appeal.
-
-- 🏷️ **Category Tag**  
-  A small, styled tag (e.g., “Design”) helps categorize the blog post clearly.
-
-- 📝 **Descriptive Title & Summary**  
-  Includes a short blog post title and a brief paragraph to capture user interest.
-
-- 👩‍💻 **Author Attribution**  
-  Shows the author's name with subtle styling and a dividing line for clean separation.
-
-- 📱 **Mobile-Responsive Layout**  
-  Built with Flexbox and scalable units to ensure the card looks good on all screen sizes.
-
-- 🌍 **Semantic HTML Elements**  
-  Uses appropriate tags like `<img>`, `<h3>`, `<p>`, and `<footer>` for better accessibility and structure.
+💌 Newsletter Signup Form – Simple, clean form for users to subscribe easily.
+⚡ Optimized Performance – Uses asynchronous CSS loading and image preloading to minimize layout shifts.
+🧭 Accessible Design – Semantic HTML structure with clear hierarchy and screen reader–friendly elements.
+🎨 Modern & Responsive UI – Looks great on all screen sizes with a consistent layout.
+🔒 Privacy-Friendly Notice – Includes a short disclaimer to build user trust.
+🖼️ Preloaded Logo Image – Prevents visual jumps during initial load.
+🧠 SEO-Optimized Metadata – Helps improve visibility on search engines.
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges-dashboard) challenge.
 
