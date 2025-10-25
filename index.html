@@ -5,11 +5,46 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Newsletter Signup</title>
   <meta name="description" content="Join our newsletter to get the latest collections, exclusive deals, and weekly updates from Muskan Yadav — stay ahead with the hottest items!">
+
+  <!-- 🧩 Inline critical (above-the-fold) CSS to prevent layout shifts -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #ffffff;
+      margin: 40px auto;
+      max-width: 700px;
+      padding: 20px;
+      line-height: 1.6;
+    }
+
+    .logo {
+      display: block;
+      width: 50px;
+      height: 50px;
+      margin: 0 auto 30px;
+    }
+
+    h1 {
+      color: #333;
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    main {
+      display: block;
+    }
+  </style>
+
+  <!-- 🕹 Load external CSS asynchronously (prevents render blocking) -->
   <link rel="preload" href="style.css?v=1.0" as="style" onload="this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="style.css?v=1.0"></noscript>
-  <link rel="preload" href="logo.webp?v=1.0" as="image">
 
+  <!-- ⚡ Preload logo to avoid layout shifts -->
+  <link rel="preload" href="logo.webp?v=1.0" as="image">
 </head>
+
 <body>
   <a href="index.html">
     <img 
@@ -21,7 +56,6 @@
     >
   </a>
 
-  
   <main>
     <h1>Join our newsletter</h1>
     <p class="tight">
@@ -30,10 +64,12 @@
     </p>
 
     <div class="newsletter-container">
-      <form action="#" method="post">
+      <form action="#" method="post" novalidate>
         <input type="email" id="email" name="email" placeholder="Enter your email address" required>
         <button type="submit">Subscribe now</button>
-        <p class="disclaimer">Your email is 100% confidential and we won’t send you any spam.</p>
+        <p class="disclaimer">
+          Your email is 100% confidential and we won’t send you any spam.
+        </p>
       </form>
     </div>
   </main>
@@ -48,6 +84,5 @@
       </a>.
     </div>
   </footer>
-
 </body>
 </html>
