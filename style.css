@@ -12,9 +12,9 @@ body {
 
 .logo {
   display: block;
-  max-height: 50px;
   max-width: 50px;
-  margin: 0 auto 30px; 
+  height: auto;
+  margin: 0 auto 30px;
 }
 
 h1 {
@@ -96,7 +96,6 @@ button:focus {
   outline: none;
 }
 
-/* --- Disclaimer Text --- */
 .disclaimer {
   font-size: 0.9em;
   color: #666;
@@ -106,7 +105,6 @@ button:focus {
   line-height: 1.4;
 }
 
-/* --- Footer --- */
 .author-info {
   display: flex;
   justify-content: center;
