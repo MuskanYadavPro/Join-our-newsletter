@@ -36,7 +36,7 @@
 
 ## Overview
 
-![screenshot]()
+![screenshot](https://github.com/user-attachments/assets/f2cd8861-5c36-4bf2-a7de-f4c3a3b9e7e8)
 
 📬 A clean and responsive Newsletter Signup Page built using HTML5 and CSS3.
 ⚡ Focused on performance optimization — includes asynchronous CSS loading and image preloading.
