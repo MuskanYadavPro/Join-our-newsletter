@@ -1,3 +1,4 @@
+/* ---------- Base Layout ---------- */
 body {
   font-family: Arial, sans-serif;
   max-width: 700px;
@@ -7,24 +8,28 @@ body {
   background-color: #ffffff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;  
+  text-align: center;
 }
 
+/* ---------- Logo ---------- */
 .logo {
   display: block;
-  max-width: 50px;
-  height: auto;
+  width: 50px; 
+  height: 50px;
   margin: 0 auto 30px;
+  object-fit: contain;
 }
 
+/* ---------- Headings ---------- */
 h1 {
-  color: #333;
-  font-size: 2.5rem;
+  color: #000000;
+  font-size: 4rem;
   text-align: center;
   margin-bottom: 20px;
   font-weight: bold;
 }
 
+/* ---------- Paragraph ---------- */
 p.tight {
   color: #6b7280;
   max-width: 700px;
@@ -32,23 +37,26 @@ p.tight {
   font-size: 20px;
   text-align: center;
   letter-spacing: 0.5px;
-  margin: 0 auto 80px; 
+  margin: 0 auto 80px;
 }
 
+/* ---------- Newsletter Box ---------- */
 .newsletter-container {
   width: 100%;
   max-width: 480px;
-  margin: 0 auto 50px;  
+  margin: 0 auto 50px;
   border: 1px solid #ddd;
   border-radius: 16px;
-  padding: 30px 25px;
+  padding: 25px 25px;
   background-color: #ffffff;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
   display: flex;
   flex-direction: column;
-  align-items: stretch;  
+  align-items: stretch;
+  min-height: 120px; 
 }
 
+/* ---------- Form Fields ---------- */
 input[type="email"] {
   width: 100%;
   height: 50px;
@@ -59,8 +67,7 @@ input[type="email"] {
   font-size: 16px;
   box-sizing: border-box;
   text-align: center;
-  margin: 0 0 20px 0; 
-
+  margin: 0 0 20px 0;
 }
 
 input[type="email"]::placeholder {
@@ -75,6 +82,7 @@ input[type="email"]:focus {
   outline: none;
 }
 
+/* ---------- Button ---------- */
 button {
   background-color: #284BCE;
   color: white;
@@ -96,6 +104,7 @@ button:focus {
   outline: none;
 }
 
+/* ---------- Disclaimer ---------- */
 .disclaimer {
   font-size: 0.9em;
   color: #666;
@@ -105,6 +114,7 @@ button:focus {
   line-height: 1.4;
 }
 
+/* ---------- Footer ---------- */
 .author-info {
   display: flex;
   justify-content: center;
